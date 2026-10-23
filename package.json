@@ -2,6 +2,10 @@
   "name": "dsh-pc-cache-cleaner",
   "version": "1.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maise66/dsh-pc-cache-cleaner.git"
+  },
   "description": "一键清理电脑缓存：侧栏按钮即点即清（临时文件、Windows 更新缓存、缩略图、浏览器缓存、DNS，覆盖所有盘符），并提供 /cache-clean 命令与 cache_clean 工具。 · One-click PC cache cleaner for DeepSeek Harness.",
   "type": "module",
   "icon": "./icon.svg",
