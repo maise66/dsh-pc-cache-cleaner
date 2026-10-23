@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Cache Cleaner",
+    "description": "One-click PC cache cleaning from the sidebar: temp files, Windows Update cache, thumbnails, browser caches and DNS; also available as the /cache-clean command and the cache_clean tool."
+  }
+}

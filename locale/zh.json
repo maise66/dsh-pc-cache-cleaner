@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "缓存清理",
+    "description": "侧栏一键清理电脑缓存：临时文件、Windows 更新缓存、缩略图、浏览器缓存与 DNS；也可用 /cache-clean 命令或 cache_clean 工具。"
+  }
+}

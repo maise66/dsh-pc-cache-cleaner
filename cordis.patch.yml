@@ -1,0 +1,20 @@
+# dsh-cache-cleaner bundle patch：把插件插入 profile 的 Loader 树。
+#
+# `id`（行 id）与 `name`（模块说明符）故意用新的值：Host 进程按说明符/行缓存已加载
+# 的模块，同一说明符改文件不会产生新的模块代次，换新值才会重新 import。
+#
+# 可选配置（按 id 覆盖即可，config 整体替换，需要写全）：
+#   enabled:  false 关闭整个插件
+#   targets:  点击按钮时清理的目标，取值见 lib/cleaner.js 的 TARGET_IDS
+#             temp | windows-update | thumbnails | browser-cache | dns | npm-cache
+- insert:
+    - id: pc-cache-cleaner
+      name: 'dsh-pc-cache-cleaner'
+      config:
+        enabled: true
+        targets:
+          - temp
+          - windows-update
+          - thumbnails
+          - browser-cache
+          - dns
